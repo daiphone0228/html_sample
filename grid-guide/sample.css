@@ -1,0 +1,46 @@
+@media (min-width: 768px){
+
+	.boxA {
+		border: solid 8px #00a0e9;
+		background-color: #a0e0fe;
+		color: #00a0e9;
+	}
+
+	.boxA:after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+
+	.box2 {
+		float: left;
+		width: 300px;
+	}
+
+	.box3 {
+		float: none;
+		width: auto;
+		margin-left: 300px;
+	}
+
+	.boxB:after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+
+	.box6 {
+		float: left;
+		width: 100%;
+		margin-right: -300px;
+		padding-right: 300px;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	.box7 {
+		float: left;
+		width: 300px;
+	}
+}
