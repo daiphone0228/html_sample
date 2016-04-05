@@ -225,7 +225,8 @@
 	}
 ```
 
-
+## ボックスを重ねて表示する場合
+- cssの`position: absolute`や`position: relative`で調整する
 
 
 
