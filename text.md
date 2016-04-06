@@ -227,6 +227,7 @@
 
 ## ボックスを重ねて表示する場合
 - cssの`position: absolute`や`position: relative`で調整する
+- 位置の調整はtop,bottom,right,leftで指定する
 
 
 
